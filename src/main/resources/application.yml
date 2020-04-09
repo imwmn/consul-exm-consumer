@@ -22,3 +22,5 @@ ribbon:
 spring-cloud-consul-producer:
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+    #配置客户端provider的服务列表
+    #listOfServers: 127.0.0.1:9907,127.0.0.1:9907
